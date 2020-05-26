@@ -1,0 +1,63 @@
+---
+layout: default
+---
+
+<head>
+<style>
+
+  html,
+  body {
+    margin: 0;
+    padding: 00;
+  }
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+
+/* Should be removed. Only for demonstration */
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+</head>
+
+
+  <div class="container row">
+    <div class="column">
+            <h3>{{ page.name }}</h3>
+            <h3>
+            {% if page.email %}
+            <a href="mailto:{{page.email}}"><i class="fa fa-envelope"></i></a>
+            {% else %}{% endif %}
+            {% if page.website %}
+            <a href="http://www.{{page.website}}"><i class="fa fa-home"></i></a>
+            {% else %}{% endif %}
+            {% if page.twitter %}
+            <a href="https://twitter.com/{{page.twitter}}"><i class="fa fa-twitter"></i></a>
+            {% else %}{% endif %}
+            {% if page.linkedin %}
+            <a href="{{page.linkedin}}"><i class="fa fa-linkedin square"></i></a>
+            {% else %}{% endif %}
+            {% if page.googlescholar %}
+            <a href="https://scholar.google.com/citations?user={{page.googlescholar}}=en"><i class="ai ai-google-scholar-square"></i></a><nobr>
+            {% else %}{% endif %}
+          </h3>
+
+          </div>
+      <div class= "column; text-align:right">
+          {% if page.avatar %}
+        <img width="300px" src="{{site.baseurl}}/images/people/{{page.avatar}}">
+        {% else %}{% endif %}
+      </div>
+      </div>
+
+<div class="container content page">
+      <hr>
+    {{page.content}}
+      </div>
