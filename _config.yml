@@ -1,0 +1,67 @@
+# # # # # # # #
+#   K i k o   #
+# # # # # # # #
+
+# Basic
+name:               "Rosenzweig lab"
+title:              "Rosenzweig lab at Mcgill University"
+description:        "this is a page for Derek Rosenzweig lab"
+
+
+# URL
+url:                http://www.hyeereee.github.io/rosenzweiglab/
+baseurl:
+#baseurl:            "" #For Root Domain
+permalink:          /:year/:month/:day/:title.html
+
+# Markdown
+markdown:           kramdown
+
+# Highlighter
+highlighter:        rouge
+
+# Navigation
+nav:
+  - name:           "home"
+    href:           "/"
+  - name:           "publications"
+    href:           "/publication/"
+  - name:           "research"
+    href:           "/research/"
+  - name:           "people"
+    href:           "/people/"
+  - name:           "news"
+    href:           "/news/"
+  - name:           "contact us"
+    href:           "/contact/"
+
+# Sass
+sass:
+  style:            :compressed
+
+# Scopes
+defaults:
+  -
+    scope:
+      path:         ""
+      type:         "pages"
+    values:
+      layout:       "page"
+  -
+    scope:
+      path:         ""
+      type:         "posts"
+    values:
+      layout:       "post"
+  -
+    scope:
+      path:         ""
+      type:         "people"
+    values:
+      layout:       "profile"
+
+
+collections:
+  people:
+    output: true
+    permalink: /people/:title/index.html

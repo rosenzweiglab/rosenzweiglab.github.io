@@ -1,0 +1,65 @@
+---
+layout: page
+---
+
+<head>
+<style>
+.column {
+  float: left;
+}
+  .left {
+      width: 60%;
+    }
+
+  .right {
+      width: 40%;
+    }
+
+  .row::after {
+    content: "";
+clear: both;
+display: table;
+    }
+
+    p{
+      text-align: justify;
+    white-space:normal;
+}
+</style>
+</head>
+
+<body>
+  <div class="container content page">
+    <div class="row">
+        <div class="column left">
+            <h2>{{ page.name }}</h2>
+            <h3>{% if page.email %}
+            <a href="mailto:{{page.email}}"><i class="fa fa-envelope"></i></a>
+            {% else %}{% endif %}
+            {% if page.website %}
+            <a href="http://www.{{page.website}}"><i class="fa fa-home"></i></a>
+            {% else %}{% endif %}
+            {% if page.twitter %}
+            <a href="https://twitter.com/{{page.twitter}}"><i class="fa fa-twitter"></i></a>
+            {% else %}{% endif %}
+            {% if page.linkedin %}
+            <a href="{{page.linkedin}}"><i class="fa fa-linkedin square"></i></a>
+            {% else %}{% endif %}
+            {% if page.googlescholar %}
+            <a href="https://scholar.google.com/citations?user={{page.googlescholar}}=en"><i class="ai ai-google-scholar-square"></i></a><nobr>
+            {% else %}{% endif %}</h3>
+          </div>
+
+      <div class= "column right">
+            {% if page.avatar %}
+              <img width="250px" src="{{site.baseurl}}/images/people/{{page.avatar}}">
+            {% else %}{% endif %}
+          </div>
+      </div>
+    </div>
+
+      <hr>
+<div style="clear: right">
+      <h3>Biosketch</h3>
+  <p>{{page.content}}</p>
+</div>
