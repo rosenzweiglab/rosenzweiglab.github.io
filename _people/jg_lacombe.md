@@ -1,6 +1,9 @@
 ---
 name: Jean-Gabriel Lacombe
 position: masters
+email: jean-gabriel.lacombe@mail.mcgill.ca
+linkedin:
+joined: 2019
 avatar:
 ---
 
