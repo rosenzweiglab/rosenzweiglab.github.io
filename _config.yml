@@ -9,7 +9,7 @@ description:        "this is a page for Derek Rosenzweig lab"
 
 
 # URL
-url:                http://www.hyeereee.github.io/rosenzweiglab/
+url:                http://www.rosenzweiglab.com
 baseurl:
 #baseurl:            "" #For Root Domain
 permalink:          /:year/:month/:day/:title.html
