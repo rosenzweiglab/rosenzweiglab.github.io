@@ -4,20 +4,23 @@ This is repository for [Rosenzweig lab](http://rosenzweiglab.com) that we cloned
 
 ## Run the page locally using Jekyll
 
-To run locally, follow instruction [here](https://jekyllrb.com/) to install Jekyll then run `jekyll serve` to see in `localhost:4000`. Here is a brief install guidelines.
+Unless you are going to make major changes, you do not need to download and run jekyll on your computer. All the files can be modified on github. If you are going to make major changes, it may also be worthwhile forking this repo first...
 
-```bash
-sudo gem install jekyll
-sudo gem install rouge
-jekyll serve
-```
+- **Directly edit on Github**, you can simply go to `_posts` and click `New file` then put some markdown file e.g. `2016-02-03-post-name.md` and start writing blog post. Github also allows you to preview it so it's nice for people who don't want to clone the repo.
+
+- **Clone the repository**, kind of the same as directly add post on Github. You just have to clone the repository. Then add new post file, commit and push to the repo.
+
+The changes will take approximately half a minute to render. You can see the new posts or changes on [rosenzweiglab.com](http://rosenzweiglab.github.io/)!
 
 ## Editing the lab website
 
 Below, we explain how to edit the lab webpage
 
-### Add posts
+### Add posts 
 
+We currently do not have posts, but operate more on a "Research Interests" basis. 
+
+<From Kordinglab>
 It's very easy to add post. All the posts are located in `_posts` folder. It arrangement is based on
 date. Each post can be written in markdown format. You just have to state headers before writing: `title`, `description` and `categories`. `description` will be shown when you share on social media like Facebook or twitter. See the following headers:
 
@@ -31,13 +34,6 @@ categories: scientists
 
 We have 4 categories: `scientists`, `students`, `discussion`, `blog` you can choose and this will be rendered to different location.
 
-### How to add posts
-
-- **Directly edit on Github**, you can simply go to `_posts` and click `New file` then put some markdown file e.g. `2016-02-03-post-name.md` and start writing blog post. Github also allows you to preview it so it's nice for people who don't want to clone the repo.
-
-- **Clone the repository**, kind of the same as directly add post on Github. You just have to clone the repository. Then add new post file, commit and push to the repo.
-
-The changes will take approximately half a minute to render. You can see the new posts or changes on [rosenzweiglab.com](http://rosenzweiglab.github.io/)!
 
 ### Add yourself
 
@@ -45,24 +41,31 @@ You can add yourself to the page in `_people` folder just create file name `<fir
 
 ``` markdown
 ---
-name: Eva Dyer
-position: postdoc
-avatar: eva.jpg
-twitter:
-joined: 2014
+name: 
+position: 
+avatar: (do not forget to add file type at the end)
+twitter: 
+email: 
+googlescholar: 
+orcid: 
+website: 
+linkedin:
+joined: (year)
+
 ---
 ```
 
 If you don't have information, just leave it blank. The avatar will bring photo from `images/people` folder and display it on people page.
-For lab position, you can choose position from 4 classes including `postdoc`, `gradstudent`, `researchstaff`,`visiting`, `others, `alumni`. Position will put you into section that you choose.
+For lab position, you can choose position from 4 classes including `postdoc`, `phd`, `masters`,`nonthesis`,`visiting`, `others, `alumni`. Position will put you into section that you choose.
 
 ### Add new publications
 
-All publications from the lab are located in `publications.md`. Please upload new publication on your own!
+Publications can be added in bibtex format into references.bib, which has the url rosenzweiglab.com/references.bib 
+The file can then be generated on bibbase.org. 
 
 ### Add news
 
-All news presented in the front page by editing `_data/news.yml`. There are some symbol that cannot be used directly e.g. `:`, be careful
+We currently do not have a news page. This may be set up at a later stage. 
 
 
 ---
