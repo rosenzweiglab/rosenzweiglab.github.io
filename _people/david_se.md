@@ -2,6 +2,8 @@
 name: David Slawaska-Eng MD
 position: masters
 avatar: DSE.jpg
+email: david.slawaska-eng@mail.mcgill.ca
+googlescholar: https://scholar.google.com/citations?user=CmSPKrgAAAAJ&hl=en
 ---
 
 David’s research focuses on the use of 3D-printed bone scaffolds in the surgical treatment of critical-sized bone defects. Under the supervision of Dr. Martineau and Dr. Rosenzweig, he is developing and characterizing a novel scaffold design that offers intraoperative modularity as well as patient specificity.
