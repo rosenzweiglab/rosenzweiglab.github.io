@@ -16,24 +16,6 @@ The changes will take approximately half a minute to render. You can see the new
 
 Below, we explain how to edit the lab webpage
 
-### Add posts 
-
-We currently do not have posts, but operate more on a "Research Interests" basis. 
-
-<From Kordinglab>
-It's very easy to add post. All the posts are located in `_posts` folder. It arrangement is based on
-date. Each post can be written in markdown format. You just have to state headers before writing: `title`, `description` and `categories`. `description` will be shown when you share on social media like Facebook or twitter. See the following headers:
-
-``` markdown
----
-title: Summer School in Computational Sensory-Motor Neuroscience (CoSMo)
-description: all links to CoSMo summer school in computational neuroscience materials
-categories: scientists
----
-```
-
-We have 4 categories: `scientists`, `students`, `discussion`, `blog` you can choose and this will be rendered to different location.
-
 
 ### Add yourself
 
@@ -67,5 +49,22 @@ The file can then be generated on bibbase.org.
 
 We currently do not have a news page. This may be set up at a later stage. 
 
+### Add posts 
+
+We currently do not have posts, but operate more on a "Research Interests" basis. 
+
+<From Kordinglab>
+It's very easy to add post. All the posts are located in `_posts` folder. It arrangement is based on
+date. Each post can be written in markdown format. You just have to state headers before writing: `title`, `description` and `categories`. `description` will be shown when you share on social media like Facebook or twitter. See the following headers:
+
+``` markdown
+---
+title: Summer School in Computational Sensory-Motor Neuroscience (CoSMo)
+description: all links to CoSMo summer school in computational neuroscience materials
+categories: scientists
+---
+```
+
+We have 4 categories: `scientists`, `students`, `discussion`, `blog` you can choose and this will be rendered to different location.
 
 ---
