@@ -32,7 +32,10 @@ display: table;
   <div class="container content page">
     <div class="row">
         <div class="column left">
-            <h2>{{ page.name }}</h2>
+          <h2>{{ page.name }}</h2>
+            <h4>{% if page.title2 %}
+            {{page. title2}}
+              {% else %}{% endif %}</h4>
             <h3>{% if page.email %}
             <a href="mailto:{{page.email}}"><i class="fa fa-envelope"></i></a>
             {% else %}{% endif %}
@@ -54,9 +57,7 @@ display: table;
             {% if page.website3 %}
             <a href="http://www.{{page.website3}}"><i class="fa fa-home"></i></a>
             {% else %}{% endif %}</h3>  
-            <h4 class="content page">{% if page.title2 %}
-            {{page. title2}}
-              {% else %}{% endif %}</h4>
+            
           </div>
 
       <div class= "column right">
