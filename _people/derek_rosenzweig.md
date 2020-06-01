@@ -14,7 +14,7 @@ title: Assistant Professor, Division of Orthopaedic Surgery McGill University; J
 
 Although he was born in Toronto, Ontario, Derek Rosenzweig lived for 20 years in south Florida where he completed his undergraduate degree (microbiology, 2001) and doctoral training in molecular pharmacology at the University of Miami School of Medicine (PhD, 2008). He moved to Montreal with his family in 2010 and joined McGill University as a postdoctoral researcher/research associate in cartilage and spine regenerative medicine (2010-2017). He was promoted to assistant professor of surgery at McGill and scientist at the Research Institute in 2017. Dr. Rosenzweig is also adjunct faculty at TAV College (CEGEP). He has over 20 years of experience in academic biomedical research. Dr. Rosenzweig’s translational research laboratory at the Montreal General hospital focuses on developing biomaterials and stem cell applications for bone, cartilage and ligament repair following trauma, infection or tumor removal. He also has a focus on developing 3D printed scaffolds and nanoparticles for drug delivery and tissue engineering applications, as well as using 3D bioprinting/biofabrication for tissue engineering and human musculoskeletal disease modeling.
 
-###Current Funded Projects:
+<h3>Current Funded Projects</h3>
 Cancer Research Society Operating Grant: Biomedical Devices for customized bone repair post-surgical resection of spine metastases. (**Co-PI**, with Michael Weber and Lisbet Haglund)
 
 MITACs accelerate grants. Towards the development of a bone substitute-based targeted drug delivery tool to treat bone metastasis. (**Co-PI**, with M. Weber and L. Haglund)
