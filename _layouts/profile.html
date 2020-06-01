@@ -36,9 +36,6 @@ display: table;
             <h3>{% if page.email %}
             <a href="mailto:{{page.email}}"><i class="fa fa-envelope"></i></a>
             {% else %}{% endif %}
-            {% if page.website %}
-            <a href="http://www.{{page.website}}"><i class="fa fa-home"></i></a>
-            {% else %}{% endif %}
             {% if page.twitter %}
             <a href="https://twitter.com/{{page.twitter}}"><i class="fa fa-twitter"></i></a>
             {% else %}{% endif %}
@@ -47,7 +44,20 @@ display: table;
             {% else %}{% endif %}
             {% if page.googlescholar %}
             <a href="https://scholar.google.com/citations?user={{page.googlescholar}}=en"><i class="ai ai-google-scholar-square"></i></a><nobr>
-            {% else %}{% endif %}</h3>
+            {% else %}{% endif %}
+            {% if page.website %}
+            <a href="http://www.{{page.website}}"><i class="fa fa-home"></i></a>
+            {% else %}{% endif %}
+            {% if page.website2 %}
+            <a href="http://www.{{page.website2}}"><i class="fa fa-home"></i></a>
+            {% else %}{% endif %}
+            {% if page.website3 %}
+            <a href="http://www.{{page.website3}}"><i class="fa fa-home"></i></a>
+            {% else %}{% endif %}             
+              </h3>
+            <h4>{% if page.title %}
+            {{page. title}}
+              {% else %}{% endif %}</h4>
           </div>
 
       <div class= "column right">
