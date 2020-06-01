@@ -7,8 +7,8 @@ email: derek.rosenzweig@mcgill.ca
 linkedin: https://www.linkedin.com/in/derekrosenzweigphd/
 googlescholar: jUzBxPMAAAAJ
 website: irr-rimuhc.ca/derek-rosenzweig/ 
-website: mcgill.ca/experimentalsurgery/supervision-faculty/derek-rosenzweig-phd
-website: mcgill.ca/orthopaedics/our-team/derek-rosenzweig-phd
+website2: mcgill.ca/experimentalsurgery/supervision-faculty/derek-rosenzweig-phd
+website3: mcgill.ca/orthopaedics/our-team/derek-rosenzweig-phd
 title: Assistant Professor <br> Division of Orthopaedic Surgery McGill University <br>Junior Scientist, Injury, Repair and Recovery Program at Research Institute, McGill University Health Centre
 ---
 
