@@ -40,6 +40,8 @@ joined: (year)
 If you don't have information, just leave it blank. The avatar will bring photo from `images/people` folder and display it on people page.
 For lab position, you can choose position from 4 classes including `postdoc`, `phd`, `masters`,`nonthesis`,`visiting`, `others, `alumni`. Position will put you into section that you choose.
 
+If changing to alumni, you must also update the people.md file in main folder. 
+
 ### Add new publications
 
 Publications can be added in bibtex format into references.bib (Google Scholar allows new publications to be exported in BibteX format and this can be edited into references.bib file in docs folder).
