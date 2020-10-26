@@ -73,5 +73,4 @@ br.bibbase_paper_content {
 
 </style>
 
-<link href="/bibbase.css" rel="stylesheet">
-<script src="https://bibbase.org/show?bib=https%3A%2F%2Frosenzweiglab.github.io%2Fdocs%2Freferences.bib&authorFirst=1&theme=simple&jsonp=1"></script>
+<script src="https://bibbase.org/show?bib=https%3A%2F%2Fraw.githubusercontent.com%2Frosenzweiglab%2Frosenzweiglab.github.io%2Fmaster%2Fdocs%2Freferences.bibauthorFirst=1&theme=simple&jsonp=1"></script>
