@@ -42,8 +42,8 @@ For lab position, you can choose position from 4 classes including `postdoc`, `p
 
 ### Add new publications
 
-Publications can be added in bibtex format into references.bib, which has the url rosenzweiglab.com/references.bib 
-The file can then be generated on bibbase.org. 
+Publications can be added in bibtex format into references.bib (Google Scholar allows new publications to be exported in BibteX format and this can be edited into references.bib file in docs folder).
+The page has the url https://raw.githubusercontent.com/rosenzweiglab/rosenzweiglab.github.io/master/docs/references.bib, which needs to be regenerated on bibbase.org. 
 
 ### Add news
 
