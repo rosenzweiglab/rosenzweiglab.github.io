@@ -44,19 +44,19 @@ If changing to alumni, you must also update the people.md file in main folder.
 
 ### Add new publications
 
-Publications can be added in bibtex format into references.bib (Google Scholar allows new publications to be exported in BibteX format and this can be edited into references.bib file in docs folder).
-The page has the url https://raw.githubusercontent.com/rosenzweiglab/rosenzweiglab.github.io/master/docs/references.bib.  
+Publications can be added in bibtex format into references.bib (Google Scholar allows new publications to be exported in BibteX format and this can be edited into references.bib file in docs folder). This page uses bibbase.org to generate the publication list, which is generated from url https://raw.githubusercontent.com/rosenzweiglab/rosenzweiglab.github.io/master/docs/references.bib   
 
 ### Add news
 
-We currently do not have a news page. This may be set up at a later stage. 
+We currently do not have a news page. This can be set up at a later stage. 
 
 ### Add posts 
 
 We currently do not have posts, but operate more on a "Research Interests" basis. 
+Other pages can be set up and linked to different places if desired. 
 
 <From Kordinglab>
-It's very easy to add post. All the posts are located in `_posts` folder. It arrangement is based on
+<<It's very easy to add post. All the posts are located in `_posts` folder. It arrangement is based on
 date. Each post can be written in markdown format. You just have to state headers before writing: `title`, `description` and `categories`. `description` will be shown when you share on social media like Facebook or twitter. See the following headers:
 
 ``` markdown
@@ -70,3 +70,4 @@ categories: scientists
 We have 4 categories: `scientists`, `students`, `discussion`, `blog` you can choose and this will be rendered to different location.
 
 ---
+>>
