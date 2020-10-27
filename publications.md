@@ -7,10 +7,7 @@ permalink: /publication/
 ---
 
 <style>
- 
-a.bibbase.bibtex.link {
-    display: none;
-}
+
 
 a.bibbase.author.link[href=#] {
   font-weight: 300;
