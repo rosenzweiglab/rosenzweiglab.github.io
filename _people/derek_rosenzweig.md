@@ -5,7 +5,7 @@ avatar: derek_rosenzweig.png
 twitter: rosenzweig_lab
 email: derek.rosenzweig@mcgill.ca
 linkedin: https://www.linkedin.com/in/derekrosenzweigphd/
-googlescholar: jUzBxPMAAAAJ
+googlescholar: jUzBxPMAAAAJ&hl=en
 website: irr-rimuhc.ca/derek-rosenzweig/ 
 website2: mcgill.ca/experimentalsurgery/supervision-faculty/derek-rosenzweig-phd
 website3: mcgill.ca/orthopaedics/our-team/derek-rosenzweig-phd
