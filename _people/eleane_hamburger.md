@@ -1,6 +1,6 @@
 ---
 name: Eleane Hamburger
-position: masters
+position: phd
 avatar: eleane_hamburger.JPG
 email: eleane.hamburger@mail.mcgill.ca
 linkedin: https://www.linkedin.com/in/eleane-hamburger-a0903816/
