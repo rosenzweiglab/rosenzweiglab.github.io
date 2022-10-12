@@ -57,7 +57,7 @@ permalink: /people/
 
 | Name | Position | Current position |
 | :------------- |:-------------| :-----------|
-| Elie Akoury | Postdoc (2017 - 2020) | - |
+| [Elie Akoury] (http://rosenzweiglab.com/people/elie_akoury/index.html) | Postdoc (2017 - 2020) | - |
 | Vedasamitha Ramavarapu | Non-thesis Masters (2019 - 2020) | - |
 | Antone Nour | Graduate Student (2012 - 2019) | - |
 | Sofia Garcia-Luna | Visiting Scholar (2018) | - |
