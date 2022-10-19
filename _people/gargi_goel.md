@@ -1,7 +1,7 @@
 ---
 name: Gargi Goel
 position: masters
-email: ateeque.siddique@mail.mcgill.ca
+email: gargigoel171@gmail.com
 linkedin: https://www.linkedin.com/in/gargi-goel/
 joined: 2021
 avatar: gargi_goel.jpg
