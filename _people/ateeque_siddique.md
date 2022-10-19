@@ -4,7 +4,7 @@ position: phd
 email: ateeque.siddique@mail.mcgill.ca
 linkedin: https://www.linkedin.com/in/ateeque-siddique/
 joined: 2020
-twitter: https://twitter.com/ateequesiddiq
+twitter: ateequesiddiq
 avatar: ateeque_siddique.jpg
 ---
 
